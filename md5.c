@@ -44,8 +44,6 @@
 
 #if defined(__BYTE_ORDER) && __BYTE_ORDER == __BIG_ENDIAN
 #define HIGHFIRST
-#elif defined(__sparc) || defined(__mips)
-#define HIGHFIRST
 #endif
 
 #ifndef HIGHFIRST
